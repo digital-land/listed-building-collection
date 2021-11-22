@@ -1,1 +1,4 @@
 pipeline,resource,organisation,value,entity
+listed-building-grade,,,I,700000
+listed-building-grade,,,II,700001
+listed-building-grade,,,II*,700002

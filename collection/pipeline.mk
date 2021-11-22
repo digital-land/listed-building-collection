@@ -55,9 +55,13 @@ dataset:: $(LISTED_BUILDING_DATASET)
 
 LISTED_BUILDING_GRADE_DATASET=$(DATASET_DIR)listed-building-grade.csv
 LISTED_BUILDING_GRADE_TRANSFORMED_FILES=\
-    $(TRANSFORMED_DIR)listed-building-grade/474c4417dafdaa069449bb62980202f8b83ebeaa5eea2c6e689bed214ffcd2e9.csv
+    $(TRANSFORMED_DIR)listed-building-grade/474c4417dafdaa069449bb62980202f8b83ebeaa5eea2c6e689bed214ffcd2e9.csv\
+    $(TRANSFORMED_DIR)listed-building-grade/47e8c774370b10c803da048f4f1d98cfb028d25e01408314c92f0ac74cbee12b.csv
 
 $(TRANSFORMED_DIR)listed-building-grade/474c4417dafdaa069449bb62980202f8b83ebeaa5eea2c6e689bed214ffcd2e9.csv: collection/resource/474c4417dafdaa069449bb62980202f8b83ebeaa5eea2c6e689bed214ffcd2e9
+	$(run-pipeline)
+
+$(TRANSFORMED_DIR)listed-building-grade/47e8c774370b10c803da048f4f1d98cfb028d25e01408314c92f0ac74cbee12b.csv: collection/resource/47e8c774370b10c803da048f4f1d98cfb028d25e01408314c92f0ac74cbee12b
 	$(run-pipeline)
 
 $(LISTED_BUILDING_GRADE_DATASET): $(LISTED_BUILDING_GRADE_TRANSFORMED_FILES)

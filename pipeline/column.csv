@@ -1,1 +1,6 @@
 pipeline,resource,pattern,value
+listed-building,72337bced0ee7e6f7ec339822e3ec1a55dbd02729a1df3747308ebdd49905868,name,listed-building-grade
+listed-building,72337bced0ee7e6f7ec339822e3ec1a55dbd02729a1df3747308ebdd49905868,ADDRESS_1,name
+listed-building,72337bced0ee7e6f7ec339822e3ec1a55dbd02729a1df3747308ebdd49905868,REF,reference
+listed-building,72337bced0ee7e6f7ec339822e3ec1a55dbd02729a1df3747308ebdd49905868,OBJECTID,listed-building
+listed-building,,WKT,geometry

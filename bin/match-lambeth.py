@@ -29,5 +29,5 @@ for row in csv.DictReader(open("transformed/listed-building/%s.csv" % (resource)
             found = entity
             break
 
-    print("listed-building,%s,,%s,%s" % (resource, row["listed-building"], found))
+    print("listed-building,%s,,,%s,%s" % (resource, row["listed-building"], found))
     sys.stdout.flush()

@@ -18,7 +18,8 @@ def key(row):
 
 
 for row in csv.DictReader(open("specification/dataset.csv")):
-    entity[row["dataset"]] = Decimal(row["entity-minimum"])
+    if row.get("entity-minimum", ""):
+        entity[row["dataset"]] = Decimal(row["entity-minimum"])
     datasets[row["dataset"]] = row
 
 

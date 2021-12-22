@@ -2,4 +2,5 @@ pipeline,resource,field,pattern,value
 listed-building,,listed-building-grade,Listed Building Grade I,I
 listed-building,,listed-building-grade,Listed Building Grade II,II
 listed-building,,listed-building-grade,Listed Building Grade II*,II*
-listed-building,,listed-building,^(.*)\.0000*$,\1
+listed-building-outline,,listed-building-outline,^(.*)\.0000*$,\1
+listed-building-outline,,listed-building-grade,^Listed Building Grade (.*)$,\1,

@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/listed-building/blob/main/LICENSE)
 [![Run pipeline](https://github.com/digital-land/listed-building-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/listed-building-collection/actions/workflows/run.yml)
 
-The data and pipeline to build the [listed-building dataset](https://www.digital-land.info/dataset/listed-building).
+The data and pipeline to build the [locally-listed-building dataset](https://www.digital-land.info/dataset/locally-listed-building) and [listed-building dataset](https://www.digital-land.info/dataset/listed-building).
 
 # Collection
 

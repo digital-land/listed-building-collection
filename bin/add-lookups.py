@@ -12,9 +12,8 @@ datasets = {}
 
 csv.field_size_limit(1000000000)
 
-# ignoring resource for now ..
 def key(row):
-    return ",".join([row.get(f, "") for f in ["pipeline", "row-number", "organisation", "value"]])
+    return ",".join([row.get(f, "") for f in ["pipeline", "resource", "row-number", "organisation", "value"]])
 
 
 for row in csv.DictReader(open("specification/dataset.csv")):
@@ -49,9 +48,6 @@ w = csv.DictWriter(open("pipeline/lookup.csv", "w", newline=""), ["pipeline", "r
 w.writeheader()
 
 for key, row in lookup.items():
-    if not row["value"]:
-        continue
-
     if not  row.get("entity", ""):
         dataset = row["pipeline"]
         row["entity"] = entity[dataset]

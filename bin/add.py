@@ -3,15 +3,21 @@
 import csv
 from decimal import Decimal
 
-n = Decimal(31479320)
+e = Decimal(42100000)
+n = 0
+dataset = "listed-building-outline"
+resource = "b9f01065469eb19645c1f00acb149289d2f050e5a6407a8fc8db199ed37c923a"
 
 w = csv.DictWriter(open("x", "w", newline=""), ["pipeline", "resource", "row-number", "organisation", "value", "entity"], extrasaction="ignore")
 w.writeheader()
 
-for row in csv.DictReader(open("pipeline/lookup.csv")):
+for row in csv.DictReader(open("transformed/%s/%s.csv" % (dataset, resource))):
     if not row.get("entity", ""):
-        row["entity"] = n
+        row["pipeline"] = dataset
+        row["resource"] = resource
+        row["entity"] = e + n
         n = n + 1
+        row["row-number"] = n
 
     w.writerow(row)
 

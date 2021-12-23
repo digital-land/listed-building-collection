@@ -88,6 +88,7 @@ LISTED_BUILDING_OUTLINE_DATASET=$(DATASET_DIR)listed-building-outline.csv
 LISTED_BUILDING_OUTLINE_TRANSFORMED_FILES=\
     $(TRANSFORMED_DIR)listed-building-outline/72337bced0ee7e6f7ec339822e3ec1a55dbd02729a1df3747308ebdd49905868.csv\
     $(TRANSFORMED_DIR)listed-building-outline/9d20207f8f2f674fda09b9632bd5d1495a635fcb762827b46c96522a45624bff.csv\
+    $(TRANSFORMED_DIR)listed-building-outline/b9f01065469eb19645c1f00acb149289d2f050e5a6407a8fc8db199ed37c923a.csv\
     $(TRANSFORMED_DIR)listed-building-outline/e3a22838b44a3c1e594eee33788728a6366caef066690e5fb9fd91e46e74bac1.csv\
     $(TRANSFORMED_DIR)listed-building-outline/efbdafb929921097a6e002188e281047bb4d512d40a8f88ade26cbb44118f0e3.csv
 
@@ -95,6 +96,9 @@ $(TRANSFORMED_DIR)listed-building-outline/72337bced0ee7e6f7ec339822e3ec1a55dbd02
 	$(run-pipeline)
 
 $(TRANSFORMED_DIR)listed-building-outline/9d20207f8f2f674fda09b9632bd5d1495a635fcb762827b46c96522a45624bff.csv: collection/resource/9d20207f8f2f674fda09b9632bd5d1495a635fcb762827b46c96522a45624bff
+	$(run-pipeline)
+
+$(TRANSFORMED_DIR)listed-building-outline/b9f01065469eb19645c1f00acb149289d2f050e5a6407a8fc8db199ed37c923a.csv: collection/resource/b9f01065469eb19645c1f00acb149289d2f050e5a6407a8fc8db199ed37c923a
 	$(run-pipeline)
 
 $(TRANSFORMED_DIR)listed-building-outline/e3a22838b44a3c1e594eee33788728a6366caef066690e5fb9fd91e46e74bac1.csv: collection/resource/e3a22838b44a3c1e594eee33788728a6366caef066690e5fb9fd91e46e74bac1
@@ -109,3 +113,18 @@ $(LISTED_BUILDING_OUTLINE_DATASET): $(LISTED_BUILDING_OUTLINE_TRANSFORMED_FILES)
 transformed:: $(LISTED_BUILDING_OUTLINE_TRANSFORMED_FILES)
 
 dataset:: $(LISTED_BUILDING_OUTLINE_DATASET)
+
+
+LOCALLY_LISTED_BUILDING_DATASET=$(DATASET_DIR)locally-listed-building.csv
+LOCALLY_LISTED_BUILDING_TRANSFORMED_FILES=\
+    $(TRANSFORMED_DIR)locally-listed-building/d658eefe9069c1559281ef97c120c45d859f4135cdca3d78ee628f96d8ecdfd0.csv
+
+$(TRANSFORMED_DIR)locally-listed-building/d658eefe9069c1559281ef97c120c45d859f4135cdca3d78ee628f96d8ecdfd0.csv: collection/resource/d658eefe9069c1559281ef97c120c45d859f4135cdca3d78ee628f96d8ecdfd0
+	$(run-pipeline)
+
+$(LOCALLY_LISTED_BUILDING_DATASET): $(LOCALLY_LISTED_BUILDING_TRANSFORMED_FILES)
+	$(build-dataset)
+
+transformed:: $(LOCALLY_LISTED_BUILDING_TRANSFORMED_FILES)
+
+dataset:: $(LOCALLY_LISTED_BUILDING_DATASET)

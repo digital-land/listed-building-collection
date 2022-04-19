@@ -1,0 +1,1 @@
+{"elapsed":"120.187","endpoint-url":"https://maps.buckscc.gov.uk/arcgis/services/PLANNING/RIPA_BOPS/MapServer/WFSServer?service=WFS&version=2.0.0&request=GetFeature&typeName=PLANNING_RIPA_BOPS:Listed_Buildings&outputFormat=GEOJSON","entry-date":"2022-04-19T00:15:20.238081","exception":"ConnectTimeout","ssl-verify":true}

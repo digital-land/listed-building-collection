@@ -7,7 +7,9 @@ listed-building,,Grade,listed-building-grade
 listed-building,,Hyperlink,documentation-url
 listed-building,,WKT,point
 locally-listed-building,,WKT,geometry
-locally-listed-building,,LOCATION,name
+locally-listed-building,fd73848f969dd4793016fcc23215a9e88b7805dd5ef1306eed30bf104534fdbf,GlobalID,reference
+locally-listed-building,fd73848f969dd4793016fcc23215a9e88b7805dd5ef1306eed30bf104534fdbf,LOCATION,name
+locally-listed-building,fd73848f969dd4793016fcc23215a9e88b7805dd5ef1306eed30bf104534fdbf,Policy,notes
 listed-building-outline,,WKT,geometry
 listed-building-outline,6c961fcd2c76a1602a98f309dc7bffe4323b3192bb839c9c773b4365f9a2ec41,ADDRESS,address-text
 listed-building-outline,6c961fcd2c76a1602a98f309dc7bffe4323b3192bb839c9c773b4365f9a2ec41,DATED,start-date

@@ -1,0 +1,1 @@
+{"elapsed":"10.089","endpoint-url":"https://medwaymaps.medway.gov.uk/WFS/wfs.exe?service=WFS&version=2.0.0&request=GetFeature&TypeNames=DVL_LISTED_BUILDINGS","entry-date":"2023-01-19T00:26:49.534154","exception":"ConnectionError","ssl-verify":true}

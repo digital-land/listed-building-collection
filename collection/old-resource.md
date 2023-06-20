@@ -6,6 +6,10 @@ Columns: old-resource,status,resource,notes
 
 If a resource entry is listed in  this file, then the resource will not be processed. See method `dataset_resource_map` in `src/digital-land/digital_land/collection.py`, for how this is used.
 
+## 2023 Jun 20
+
+In the work on the 19th below, I excluded all of the resources listed. This had the effect of cancelling the collection of data for lited buildings. 
+
 ## 2023 Jun 19
 
 There's been an ongoing issue with  the listed buildingds collection on the CI box. The error reported is shown below
@@ -75,4 +79,5 @@ Which returns
 TIP: Put `"|" || resource.resource || "| " || resource.start_date || "|"` as your select clause to get the above.
 
 I added the above to old-resource.csv using the select clause `resource.resource || ",410,,See old-resource.md section 2023 June 19 for details"` to generate them. It seems to match on format.
+
 

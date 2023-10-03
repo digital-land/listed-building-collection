@@ -15,4 +15,4 @@ a15cf992712968ed507792bb8e41ba7cb47732a15d35bd3c121e1fd0d85fe274,https://datamil
 2b0ef9c4c1482e0f32139e231a146d52a3cde2e4148db87c13c0b414d981c32a,https://gcty.dynamicmaps.co.uk:8443/geoserver/Digital_Land/ows?service=wfs&request=GetFeature&TypeNames=Digital_Land%3Alisted_buildings_DL&OutputFormat=GML2,,wfs,2022-07-28T13:21:40Z,,
 8c363105b8138f6471cd4a453a84f15870be417ed0624d4b12f7b39ba49306ed,https://maps.doncaster.gov.uk/server/rest/services/Planning/Heritage_Map/MapServer/1,,arcgis,2022-11-01T16:42:43Z,,
 542df0fe6f134916c24b5257c6df45a8be367e898f545a9ec8923b69dfb9bcb9,https://www.southwark.gov.uk/assets/attach/194140/Listed-buildings-outlines.gpkg,,,2023-08-15T14:14:04:16Z,,
-431efe2f2cbc73eb181f67ce9cc27cc61f88236835eb2b3b96ee6a54ceb6458a,https://opendata.camden.gov.uk/api/views/uu3n-zgbj/rows.csv?accessType=DOWNLOAD,,,2023-09-29T12:12:40:17Z,,
+431efe2f2cbc73eb181f67ce9cc27cc61f88236835eb2b3b96ee6a54ceb6458a,https://opendata.camden.gov.uk/api/views/uu3n-zgbj/rows.csv?accessType=DOWNLOAD,,,2023-09-29T12:12:40:17Z,,2023-10-03

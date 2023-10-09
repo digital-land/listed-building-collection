@@ -16,3 +16,4 @@ a15cf992712968ed507792bb8e41ba7cb47732a15d35bd3c121e1fd0d85fe274,https://datamil
 8c363105b8138f6471cd4a453a84f15870be417ed0624d4b12f7b39ba49306ed,https://maps.doncaster.gov.uk/server/rest/services/Planning/Heritage_Map/MapServer/1,,arcgis,2022-11-01T16:42:43Z,,
 542df0fe6f134916c24b5257c6df45a8be367e898f545a9ec8923b69dfb9bcb9,https://www.southwark.gov.uk/assets/attach/194140/Listed-buildings-outlines.gpkg,,,2023-08-15T14:14:04:16Z,,
 431efe2f2cbc73eb181f67ce9cc27cc61f88236835eb2b3b96ee6a54ceb6458a,https://opendata.camden.gov.uk/api/views/uu3n-zgbj/rows.csv?accessType=DOWNLOAD,,,2023-09-29T12:12:40:17Z,,2023-10-03
+d75c63b3c20b6662013b953058f7af0fa88c51d7bb4b32e6d96d2863bd8505d0,https://services7.arcgis.com/NXULfNGIlsKmpCJD/arcgis/rest/services/Listed_Buildings_(QGIS_4_Export)/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson,,,2023-10-09T10:10:05:48Z,,

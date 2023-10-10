@@ -29,3 +29,4 @@ hoisted/
 collection/log.csv
 collection/resource.csv
 collection/pipeline.mk
+import.csv

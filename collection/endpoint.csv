@@ -23,3 +23,4 @@ d75c63b3c20b6662013b953058f7af0fa88c51d7bb4b32e6d96d2863bd8505d0,https://service
 6cec4fa5b9e9340c4f594bbdbac5cd7ffaf94498583d1ce5f4ffb1f9e2849427,https://open.barnet.gov.uk/download/2w6jz/ztc/statutory-listed-buildings.csv,,,2023-12-18,2023-12-18,
 b64e3b0edc13c75c0a21a459c13c7c9c6eb89e0785885ca7a32a553d81c0c824,https://maps.epsom-ewell.gov.uk/getows.ashx?mapsource=eebc/planx&service=wfs&version=1.1.0&request=getfeature&typename=listedbuildings,,,2023-12-18T15:15:54:23Z,,
 696ba4151c5b88c695da981274de4baa5a14f8a0a57f730f5bbfbbf1fba8d6a7,https://tewkesburybc.s3.eu-west-2.amazonaws.com/geojson/listed-buildings-outline.geojson,,,2024-01-16,2023-11-03,
+26018648805716d05532f00c2f8fe0d25d73a3dedf92c58e798cf851e8782466,https://gis.westberks.gov.uk/server/rest/services/Layers/LPA_LISTED_BUILDINGS/FeatureServer/0/query?where=1%3D1&f=geojson&outFields=*,,,2024-01-22,2023-12-18,
